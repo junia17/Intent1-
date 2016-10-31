@@ -17,8 +17,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Nama"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Umur"
+        android:inputType="numberSigned" />
 
     <Button
         android:id="@+id/buttonHitung"
